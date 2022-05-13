@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/componentes.css">
 
-    <title>Formulario</title>
+    <title>Assinatura de planos</title>
 </head>
 
 <body>
@@ -21,8 +21,8 @@
         <a href="./index.html"><img href="./index.html" src="../img/icone.png" width="80px" height="80px" alt=""></a>
         <nav class="navTop">
             <a class="navHome" href="./index.html">Home</a>
-            <a class="navSobre" href="">Sobre</a>
-            <a class="navContatos" href="">Contatos</a>
+            <a class="navSobre" href="./sobre.html">Sobre</a>
+            <a class="navContatos" href="./contatos.html">Contatos</a>
             <!-- <a class="navContatos" href="">teste</a> -->
         </nav>
     </header>
@@ -30,12 +30,12 @@
     <main class="layout-assinatura">
 
         <div class="container">
-            <h1 class="titulo-formulario">assinatura do plano</h1>
+            <h1 class="titulo-formulario">Assinatura do plano.</h1>
             <form action="#" method="post">
                 <div class="row">
                     <div class="my-3 col-sm-12 col-md-12">
                         <label class="form-label" for="nome">Nome:</label>
-                        <input placeholder="Nome" id="nome" class="form-control" type="text" name="nome"
+                        <input placeholder="Nome Sobrenome" id="nome" class="form-control" type="text" name="nome"
                             required="true">
                     </div>
                     <div class="row">
@@ -48,19 +48,19 @@
 
                     <div class="row">
                         <div class="my-3 col-sm-3 col-md-3">
-                            <label for="telefone" class="form-label">Telefone:</label>
-                            <input class="form-control" id="telefone" type="text" name="telefone">
+                            <label  for="telefone" class="form-label">Telefone:</label>
+                            <input placeholder="(xx) xxxxx-xxxx" class="form-control" id="telefone" type="text" name="telefone">
                         </div>
                         <div class="my-3 col-sm-3 col-md-3">
                             <label for="data-nascimento" class="form-label">Data de Nascimento:</label>
-                            <input class="form-label" id="data-nascimento" type="date" name="data-nascimento">
+                            <input class="my-1 form-label" id="data-nascimento" type="date" name="data-nascimento">
                         </div>
                         <div class="my-3 col-sm-3 col-md-3">
                             <label for="tipo-plano" class="form-label">Tipo de plano:</label>
                             <select class="form-select" name="tipo-plano" id="tipo-plano">
-                                <option value="B">Básico</option>
-                                <option value="I">Intermediário</option>
-                                <option value="A">Avançado</option>
+                                <option value="B">Mensal</option>
+                                <option value="I">Semestral</option>
+                                <option value="A">Anual</option>
                             </select>
                         </div>
                     </div>
@@ -68,20 +68,20 @@
                         <label class="form-label">Serviço adicional:</label>
                         <div>
                             <div>
-                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="netflix">
-                                <label id="tipo-servico">Netflix</label>
+                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="personal">
+                                <label id="tipo-servico">Personal.</label>
                             </div>
                             <div>
-                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="prime">
-                                <label id="tipo-servico">Amazon Prime</label>
+                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="whey">
+                                <label id="tipo-servico">Best whey + 63,90/mês.</label>
                             </div>
                             <div>
-                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="globo">
-                                <label id="tipo-servico">Globo Play</label>
+                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="piscina">
+                                <label id="tipo-servico">Acesso à piscina.</label>
                             </div>
                             <div>
-                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="spotify">
-                                <label id="tipo-servico">Spotify</label>
+                                <input id="tipo-servico" name="tipo-servico" type="checkbox" value="brinde">
+                                <label id="tipo-servico">Boné, Camisas, Bermuda.</label>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                 </datalist>
                 <div>
                     <button value="enviar" class="my-3 btn btn-dark">Enviar</button>
-                    <input type="reset" value="limpar" class="my-3 btn btn-dark"> 
+                    <input type="reset" value=Limpar class="my-3 btn btn-dark"> 
                 </div>
             </form>
         </div>

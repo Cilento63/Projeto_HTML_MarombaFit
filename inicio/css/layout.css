@@ -34,10 +34,27 @@
 
 }
 
-#planos {
-    padding: 200px 0;
+.navHome:hover,
+.navSobre:hover,
+.navContatos:hover{
+
+    color: rgb(211, 95, 18);
+    
 
 }
+
+
+
+#planos {
+    padding: 150px 0;
+
+
+}
+
+
+
+
+
 
 
 
@@ -72,4 +89,121 @@
 label{
     color: azure;
 }
+
+
+
+
+/* SOBRE */
+
+.Missao{
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 1.5em;
+
+
+
+}
+
+.Visao{
+    margin-left: 30%;
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+    margin-bottom: 110px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    
+
+}
+
+.Missao-top{
+
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat;
+    margin-left: 30%;
+    font-size: 2em;
+
+}
+
+.Visao-top{
+
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat;
+    margin-left: 30%;
+    font-size: 2em;
+  
+
+}
+
+.Valores{
+    margin-left: 30%;
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+    margin-bottom: 110px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    
+
+}
+
+.Valores-top{
+
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat;
+    margin-left: 30%;
+    font-size: 2em;
+
+}
+
+.Valores,.Valores-top,.Missao,.Missao-top,.Visao,.Visao-top{
+
+    margin-left: 33%;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel-indicators li {
+    background-color: rgb(15, 15, 15);
+}
+
+
+/* CONTATO */
+
+.redes{
+    font-family: Montserrat;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.redes>div>a>img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+
+
 
